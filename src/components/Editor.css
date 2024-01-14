@@ -1,0 +1,44 @@
+.wrapper{
+    /* position:relative; */
+}
+
+.header{
+    background-color: black;
+    color: white;
+    height:5vh;
+    display:flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin-left: 4rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    /* position:absolute;    */
+}
+
+.header h1{
+    text-align: center;
+}
+
+.input-cover{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    height: 48vh;
+    padding:3rem 1.5rem 1.5rem 1.5rem;
+}
+
+textarea{
+    background-color: #282828;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    width:27%;
+    padding:2rem;
+}
+
+.output{
+    height:100vh;
+}
+
